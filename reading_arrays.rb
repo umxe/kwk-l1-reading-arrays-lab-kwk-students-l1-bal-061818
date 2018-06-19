@@ -32,3 +32,10 @@ def first_second_and_third_students
   puts $STUDENT_NAMES[1]
   puts $STUDENT_NAMES[2]
 end
+first_second_and_third_students
+first_student_by_method
+fourth_student_by_index
+first_student_by_index
+last_student_by_method
+last_student_by_index
+
