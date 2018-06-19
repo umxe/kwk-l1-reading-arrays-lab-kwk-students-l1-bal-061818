@@ -1,4 +1,4 @@
-student_names = [
+$STUDENT_NAMES = [
   "Adele",
   "Beyoncé",
   "Cardi B",
@@ -7,28 +7,28 @@ student_names = [
   "Rihanna"
 ]
 
-def first_student_by_index(student_names)
-  puts student_names[0]
+def first_student_by_index
+  puts $STUDENT_NAMES[0]
 end
 
-def fourth_student_by_index(student_names)
-  puts student_names[3]
+def fourth_student_by_index
+  puts $STUDENT_NAMES[3]
 end
 
-def last_student_by_index(student_names)
-  puts student_names[-1]
+def last_student_by_index
+  puts $STUDENT_NAMES[-1]
 end
 
-def first_student_by_method(student_names)
-  puts student_names.first
+def first_student_by_method
+  puts $STUDENT_NAMES.first
 end
 
-def last_student_by_method(student_names)
-  puts student_names.last
+def last_student_by_method
+  puts $STUDENT_NAMES.last
 end
 
-def first_second_and_third_students(student_names)
-  puts student_names[0]
-  puts student_names[1]
-  puts student_names[2]
+def first_second_and_third_students
+  puts $STUDENT_NAMES[0]
+  puts $STUDENT_NAMES[1]
+  puts $STUDENT_NAMES[2]
 end
